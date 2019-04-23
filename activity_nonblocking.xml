@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nonblocking"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Menghitung panjang pita, lama akses, dan transfer rate Non-Blocking" />
+
+        <EditText
+            android:id="@+id/jum_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:hint="Jumlah Record"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/panj_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:hint="Panjang Record"
+            android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/irg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:hint="IRG"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+            android:id="@+id/data_den"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:hint="Data Dencty"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/laju_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:hint="Laju Pita"
+            android:inputType="number|numberDecimal" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    <TextView
+        android:id="@+id/pjg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panjang Pita" />
+
+    <TextView
+        android:id="@+id/lma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lama Akses" />
+
+    <TextView
+        android:id="@+id/trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer rate" />
+
+    </LinearLayout>
+
+
